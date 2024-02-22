@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "Mi primer proyecto con Nodejs",
   "main": "index.html",
-  "scripts": {
+ "scripts": {
+    "dev": "lite-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/dualraf/DesarrolloWeb/issues"
   },
-  "homepage": "https://github.com/dualraf/DesarrolloWeb#readme"
+  "homepage": "https://github.com/dualraf/DesarrolloWeb#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
 }
