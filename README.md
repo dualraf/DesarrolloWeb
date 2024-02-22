@@ -1,3 +1,3 @@
 # Desarrollo Web
 
-Aprendiendo HTML, CSS, Javascript y Bootscrapt
+Aprendiendo HTML, CSS, Javascript y Bootstrap
