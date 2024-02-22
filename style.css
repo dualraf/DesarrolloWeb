@@ -1,0 +1,11 @@
+input[name="Name"] {
+    background-color: greenyellow;
+    width: 150px;
+    margin-bottom: 10px;
+}
+
+label[for="visitante"] {
+    color: orange;
+    font-weight: bolder;
+    font-size: large;
+}
