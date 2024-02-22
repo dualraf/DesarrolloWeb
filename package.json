@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Mi primer proyecto con Nodejs",
   "main": "index.html",
- "scripts": {
+  "scripts": {
     "dev": "lite-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,5 +19,10 @@
   "homepage": "https://github.com/dualraf/DesarrolloWeb#readme",
   "devDependencies": {
     "lite-server": "^2.6.1"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "jquery": "^3.7.1",
+    "popper.js": "^1.16.1"
   }
 }
