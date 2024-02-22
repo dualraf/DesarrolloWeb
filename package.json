@@ -1,0 +1,19 @@
+{
+  "name": "desarrolloweb",
+  "version": "1.0.0",
+  "description": "Mi primer proyecto con Nodejs",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/dualraf/DesarrolloWeb.git"
+  },
+  "author": "Dualraf",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dualraf/DesarrolloWeb/issues"
+  },
+  "homepage": "https://github.com/dualraf/DesarrolloWeb#readme"
+}
