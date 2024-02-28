@@ -25,8 +25,15 @@ footer {
 }
 
 .breadcrumb {
-    background-color: gainsboro;
+    background-color: rgb(228, 227, 227);
     height: 35px;
     align-items: center;
     display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+
+.footer-icon {
+    padding-right: 10px;
 }
