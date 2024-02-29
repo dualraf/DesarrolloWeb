@@ -8,8 +8,7 @@
     <!-- Bootstrap CSS -->
     <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="node_modules/open-iconic/font/css/open-iconic-bootstrap.min.css">
-    
+
     <title>Guía Hoteles</title>
   </head>
   <body>
@@ -24,13 +23,13 @@
             <a class="nav-link" aria-current="page" href="./index.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="#">Nosotros</a>
+            <a class="nav-link" href="./about.html">Nosotros</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Precios</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./contacto.html">Contactos</a>
+            <a class="nav-link active" href="#">Contactos</a>
           </li>
         </ul>
       </div>    
@@ -43,21 +42,59 @@
         <ol class="breadcrumb">
           <li class="breadcrumb-item">
             <a href="./index.html">Home</a></li>
-          <li class="breadcrumb-item active" aria-current="page">Nosotros</li>
+          <li class="breadcrumb-item active" aria-current="page">Contacto</li>
         </ol>
       </nav>
-      <span>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil quaerat at inventore porro quia commodi illo velit, corrupti voluptatum quos dolorem corporis architecto repellendus nam enim neque recusandae iusto saepe?
-        Autem nobis at optio quae soluta veritatis eligendi ut, aperiam, pariatur architecto fugit, rem non reiciendis. Animi, accusantium obcaecati! Qui deleniti est vitae. A aliquam alias similique esse, repudiandae itaque!
-        Ipsa distinctio, dolorem non debitis tenetur nemo, quaerat vel, suscipit porro sequi dolor quos blanditiis quasi quo eius. Quasi fugit suscipit quam aut assumenda possimus! Perferendis maxime assumenda minima nostrum.
-        Adipisci repellendus at est eum! Tempora ipsam itaque ex? Adipisci quos explicabo soluta? Doloremque delectus excepturi culpa, atque quibusdam molestias, aliquid fugiat corporis, enim dolorum hic error! Possimus, quo adipisci.
-        Soluta nesciunt odit nulla et omnis maiores consequatur eaque repellat magni est. Iusto officiis sed enim, nisi quae libero placeat architecto praesentium accusantium neque quo assumenda, in harum, ratione ex.
-        Molestiae id ipsa optio doloribus. At, cumque amet. Fuga ipsum incidunt fugit molestias amet illum molestiae sit magnam? Eos enim fugiat reiciendis iste quaerat id nemo, culpa error quod fugit.
-        Iste culpa, officia soluta dignissimos distinctio sed facere illo reiciendis dolorum voluptates maxime harum, saepe iure quibusdam natus dicta ex repellat, nulla quidem unde. Commodi rerum delectus a nesciunt eaque.
-        Voluptatem repellendus atque recusandae. Eligendi amet repudiandae ipsum commodi? Reprehenderit enim distinctio aliquid optio recusandae mollitia quo illo labore. Delectus exercitationem velit unde nam saepe at, facilis rem necessitatibus eius.
-        Soluta numquam minus nihil ratione accusantium maiores deleniti, distinctio ea nesciunt tempore et voluptate fugiat magnam nulla neque, quidem a veniam suscipit assumenda recusandae omnis enim esse dolorum iure. Repudiandae.
-        Temporibus accusamus non nihil? Molestiae odio magnam ipsam tempora iusto vero impedit eum expedita inventore at et corrupti sapiente dolore, labore magni a obcaecati voluptates facilis corporis quidem enim iure.
-      </span>
+
+      <h1>Dejame tu comentario</h1>
+      <form>
+        <div class="row">
+          <div class="form-group col-md-6">
+            <label for="nombre">Nombre</label>
+            <input type="text" class="form-control" id="nombre"
+            placeholder="Ingrese su Nombre">
+          </div>
+          <div class="form-group col-md-6">
+            <label for="apellido">Apellido</label>
+            <input type="text" class="form-control" id="apellido" 
+            placeholder="Ingrese su Apellido">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+            <input type="email" class="form-control" id="email" 
+            placeholder="Ingrese su mail">
+        </div>
+        <div class="row">
+          <div class="form-group col-sm-9">
+            <label for="domicilio">Domicilio</label>
+            <input type="text" class="form-control" id="domicilio"
+            placeholder="Ingrese su domicilio">
+          </div>
+          <div class="form-group col-sm-3">
+            <label for="provincia">Provincia</label>
+            <select id="provincia" class="form-control">
+              <option selected>Lima</option>
+              <option>Callao</option>
+              <option>Arequipa</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="comentario">Comentario</label>
+          <textarea id="comentario" class="form-control" rows="10"></textarea>
+        </div>
+        <div class="form-group">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck">
+            <label class="form-check-label" for="gridCheck">
+              Quiero que me contacten
+            </label>
+          </div>
+        </div>
+        <button type="submit" class="btn btn-outline-primary">Enviar</button>
+      </form>
+
     </div>
 
     <footer>
