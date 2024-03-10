@@ -155,8 +155,7 @@
             <button type = "button" class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#contacto">Contacto</button>
           </div>
           <div>
-            <button class="btn btn-primary btn-reserva">
-              <span class="oi oi-plus"></span>Reservar</button>
+            <button class="btn btn-primary btn-reserva" data-toggle="popover" title="Promociones" data-bs-content="Consulta las promociones vigentes">Reservar</button>
           </div>
         </div>
         <div class="card card-hotel d-flex flex-column justify-content-between ml-2">
@@ -244,6 +243,7 @@
     <script>
     $(function(){
       $('[data-toggle="tooltip"]').tooltip()
+      $('[data-toggle="popover"]').popover()
     })
     </script>
   </body>
