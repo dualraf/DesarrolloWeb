@@ -174,7 +174,8 @@
             <h5 class="card-title">Hotel Sao Paolo</h5>
             <h6 class="card-subtitle text-muted">Brasil</h6>
             <p class="card-text">Hotel ubicado en pleno centro.</p>
-            <button type = "button" class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#contacto">Contacto</button>
+            <button type = "button" class="btn btn-outline-success" data-bs-toggle="modal" 
+            data-bs-target="#contacto" id="contactoBtn">Contacto</button>
           </div>
           <div>
             <button class="btn btn-primary btn-reserva" data-toggle="popover" title="Promociones" data-bs-content="Consulta las promociones vigentes">Reservar</button>
@@ -264,11 +265,18 @@
 
     <script>
     $(function(){
-      $('[data-toggle="tooltip"]').tooltip()
-      $('[data-toggle="popover"]').popover()
+      $('[data-toggle="tooltip"]').tooltip();
+      $('[data-toggle="popover"]').popover();
       $('.carousel').carousel({
         interval: 2000
-      })
+      });
+
+      $('#contacto').on('shown.bs.modal',function (e){
+        console.log("el modal se está mostrando");
+        $('#contactoBtn').removeClass('btn-outline-success');
+        $('#contactoBtn').addClass('btn-primary');
+        $('#contactoBtn').prop('disabled',true);
+      });
     })
     </script>
   </body>
