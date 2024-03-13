@@ -8,4 +8,5 @@ Pasos de instalación:
 5. npm install popper.js --save
 6. npm install open-iconic --save
 7. npm run dev
+8. npm install node-sass --save-dev
 
