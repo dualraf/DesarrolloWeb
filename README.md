@@ -20,3 +20,5 @@ Comandos de ejecución:
 npm run start
 npm run dev
 npm run watch:scss
+npm run usemin
+npm run build
