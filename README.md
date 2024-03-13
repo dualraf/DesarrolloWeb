@@ -9,4 +9,4 @@ Pasos de instalación:
 6. npm install open-iconic --save
 7. npm run dev
 8. npm install node-sass --save-dev
-
+9. sudo npm install -g less
